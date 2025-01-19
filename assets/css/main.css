@@ -810,31 +810,31 @@ top: 10px;
 border-radius: 2px;
 background-color: #545BE8;
 }
-.bestcourseprice{
+.bestcoursepric {
     width: 100%;
-        background: linear-gradient(to bottom, rgba(73, 72, 72, 0), rgb(53, 53, 53));
-position: relative;
-top: 83px;
-text-align: right;
-display: flex;
-
+    background: linear-gradient(to bottom, rgba(73, 72, 72, 0), rgb(53, 53, 53));
+    position: relative;
+    top: 82px; /* Adjusted from 180px */
+    text-align: right;
+    display: flex;
 }
- .price{
+.price {
     text-align: right;
     width: 100%;
-height: 50.56px;
-position: relative;
-top: 20px;
-left: 120px;
-font-family: Poppins;
-font-size: 18.93px;
-font-weight: bolder;
-line-height: 13.39px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #ffffff;
+    height: 50.56px;
+    position: relative;
+    top: 20px;
+    left: 0px; /* Adjusted from 120px */
+    font-family: Poppins;
+    font-size: 18.93px;
+    font-weight: bolder;
+    line-height: 13.39px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
 }
+
 .courseheader{
     width: 100%;
     display: flex;
