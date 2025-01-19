@@ -1,0 +1,1172 @@
+.head{
+    padding: 30px 0px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.head .row{
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.img_name{
+    display: flex;
+    width: 25%;
+    gap: 10px;
+   
+
+}
+.logoimg{
+    width: 25px;
+height: 13.98px;
+gap: 0px;
+opacity: 0px;
+
+}
+.logoimg img{
+    width: 100%;
+}
+.company_name{
+    width: 48px;
+height: 7px;
+opacity: 0px;
+font-family: Roboto;
+font-size: 7.5px;
+font-weight: 400;
+line-height: 20px;
+color: #545BE8;
+flex-grow:1 ;
+}
+.head .nav ul {
+    width: 50%; /* Adjusted to take full width */
+    display: flex;
+    color: #000;
+    flex-direction: row;
+    gap: 16px;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.head .nav ul li {
+    display: inline; /* Ensure list items are inline */
+}
+
+.head .nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent */
+    padding: 8px 16px; /* Add some padding for better spacing */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.head .nav ul li a:hover {
+    color: #007BFF; /* Change color on hover */
+}
+.account{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 25%;
+    gap: 7px;
+}
+.logIn {
+
+padding:10px 35px;
+border-radius: 4.12px;
+border: 0.41px 0px 0px 0px;
+opacity: 0px;
+border: 0.41px solid #545BE8;
+color: #545BE8;
+background-color: #fff;
+cursor: pointer;
+transition: all .4s ease;
+}
+.logIn:hover{
+background-color: #545BE8;
+color: #fff;
+box-shadow: 0 4px 8px rgba(111, 9, 237, 0.5);
+
+}
+.Regis{
+    padding:10px 35px;
+border-radius: 4.12px;
+border: 0.41px 0px 0px 0px;
+opacity: 0px;
+border: 0.41px solid #545BE8;
+color: #fff;
+background-color: #545BE8;
+cursor: pointer;
+transition: all .4s ease;
+}
+.Regis:hover{
+    box-shadow: 0 4px 8px rgba(111, 9, 237, 0.5);
+
+    }
+    .bar{
+        display: none;
+    }
+    @media screen and (max-width: 780px) {
+        .nav {
+             display: none;
+            }
+         .bar {
+                 display: block;
+                 }
+         .account {
+            width: auto; /* Adjusted to fit content */ 
+        }
+        .Regis, .logIn
+        {
+            padding: 5px 20px; /* Adjusted padding for tablets */
+        }
+        .head .row {
+             justify-content: space-between;
+             gap: 15px; /* Adjusted gap for tablets */
+             justify-content: center;
+             align-items: center;
+             align-content: center;
+            }
+            .head .container{
+                width: 100%;
+            }
+            .img_name{
+                width: 20%;
+            }
+            .logoimg{
+                width: 20px;
+            }
+            .company_name{
+                width: 38px;
+                font-size: 4px;
+            }
+            
+        } /* Media query for mobile devices */
+/*--------------------end header-----------------*/
+.letstart{
+    padding: 30px 0px;
+}
+.letstart .row{
+    flex-wrap:wrap ;
+}
+.letstart .container{
+    width: calc(100% - 700px);
+}
+.startinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.begins{
+    width: 40.85px;
+    font-family: Inter;
+font-size: 17.41px;
+font-weight: 400;
+line-height: 18.97px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #545BE8;
+
+}
+.Span{
+    font-family: Inter;
+font-size: 20.41px;
+font-weight: 700;
+line-height: 8.97px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--mainColor);
+
+}
+.startsubtitle{
+    width: 205.32px;
+
+    font-family: Poppins;
+    font-size: 30.36px;
+    font-weight: bold;
+    line-height: 39.54px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+color:#141E32 ;
+}
+.cour{
+    font-family: Poppins;
+font-size: 26.36px;
+font-weight: 800;
+line-height: 39.54px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--mainColor);
+}
+.lorem{
+width: 218.32px;
+font-family: Poppins;
+font-size: 10.41px;
+font-weight: 300;
+line-height: 11.12px;
+text-align: left;
+color: #969696;
+}
+.reg_vid{
+    display: flex;
+    gap: 17px;
+}
+.Regis2{
+    width: Fixed (66.51px)px;
+padding: 5.35px 20.18px 5.35px 20.18px;
+border: none;
+gap: 4.12px;
+border-radius: 4.12px;
+
+background: #545BE8;
+color: #fff;
+}
+.Regis2:hover{
+    box-shadow: 0 4px 8px rgba(111, 9, 237, 0.5);
+
+    }
+    .vid{
+        background-color: #fff;
+        border: none;
+        width: 59px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 8.97px;
+        text-align: left;
+        color:#141E32;
+
+
+    }
+    .findcourseimage{
+        width: 50%;
+    }
+.findcourseimage img{
+    width: 100%;
+}
+@media screen and (max-width:380px) {
+    .letstart .container{
+        width: 100%;
+    }
+    .startinfo{
+        width: 25%;
+
+    }
+
+    .findcourseimage{
+        width: 35%;
+    }
+}
+/*--------------end sec1------------*/
+.wegive{
+    padding: 30px 0;
+    background-color:#F5F5F5 ;
+}
+.wegive .row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.what_do_you_get{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.servec{
+    display: flex;
+    width: 100%;
+    gap: 20.03px;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+font-family: Inter;
+font-size: 8.41px;
+font-weight: 400;
+line-height: 8.97px;
+text-align: left;
+color: var(--mainColor);
+}
+.wegivesubtitle{
+    width: 250.85px;
+height: 50px;
+top: 350.65px;
+left: 41px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 26.47px;
+font-weight: 700;
+line-height: 24.71px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:  #141E32;
+}
+.wegive_description{
+    width: 249.92px;
+height: 33px;
+top: 406.66px;
+left: 41px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 7.41px;
+font-weight: 400;
+line-height: 11.12px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #969696;
+}
+.pro_teacher{
+    width: 20%;
+    height: 200px;
+    background-color:var(--mainColor) ;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:space-around;
+}
+.teachericon{
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.teachersubtitle{
+    width: 150.72px;
+
+    margin-left: 5px;
+    font-family: Inter;
+    font-size: 15.41px;
+    font-weight: 700;
+    line-height: 32.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+.teacherlorem{
+    width: 193.08px;
+height: 36px;
+top: 58.48px;
+left: 7px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 15.77px;
+font-weight: 300;
+line-height: 18.65px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #DDDDDD;
+margin-left: 5px;
+}
+.Certificate{
+    width: 20%;
+    height: 200px;
+    background-color:var(--mainColor) ;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:space-around;
+
+}
+.certificateicon
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.Certificatesubtitle{
+    width: 150.72px;
+
+    margin-left: 5px;
+    font-family: Inter;
+    font-size: 15.41px;
+    font-weight: 700;
+    line-height: 32.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+.certificatelorem{
+    width: 193.08px;
+    height: 36px;
+    top: 58.48px;
+    left: 7px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 15.77px;
+    font-weight: 300;
+    line-height: 18.65px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #DDDDDD;
+    margin-left: 5px;
+}
+.intersting{
+    width: 20%;
+    height: 200px;
+    background-color:var(--mainColor) ;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:space-around;
+ 
+}
+.awardicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.interestingsubtitle{
+    width: 150.72px;
+
+    margin-left: 5px;
+    font-family: Inter;
+    font-size: 15.41px;
+    font-weight: 700;
+    line-height: 32.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+.interestinglorem{
+    width: 193.08px;
+    height: 36px;
+    top: 58.48px;
+    left: 7px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 15.77px;
+    font-weight: 300;
+    line-height: 18.65px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #DDDDDD;
+    margin-left: 5px;
+}
+.left, .right{
+    border: none;
+    background-color:#F5F5F5;
+    margin: 5px;
+}
+.shift-left, .shift-right{
+    width: 50px;
+    height: 50px;
+
+}
+@media screen and (max-width:400px) {
+    .servec{
+        width:90%;
+    }
+    .wegive .container{
+        width: 100%;
+    }
+    .what_do_you_get{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .wegivesubtitle{
+        width: 90.85px;
+    height: 50px;
+    top: 350.65px;
+    left: 41px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16.47px;
+    font-weight: 700;
+    line-height: 24.71px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  #141E32;
+    }
+    .wegive_description{
+        width: 100.92px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 7.41px;
+    font-weight: 400;
+    line-height: 7.12px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #969696;
+    }
+    .pro_teacher, .Certificate, .intersting{
+        width: 20%;
+        height: 20%;
+        background-color:var(--mainColor) ;
+        flex-direction: column;
+        gap: 20px;
+        justify-content:space-around;
+    }
+    .teachericon, .certificateicon, .awardicon{
+        width: 20px;
+        height: 20px;
+        border-radius: 500px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .teachericon .icon, .certificateicon .icon, .awardicon .icon{
+        width: 10px;
+        height: 10px;
+    }
+    .teachersubtitle, .Certificatesubtitle, .interestingsubtitle{
+        width: 110.72px;
+        font-family: Inter;
+        font-size: 7.41px;
+        font-weight: 400;
+        line-height: 22.36px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+    .teacherlorem, .certificatelorem, .interestinglorem{
+    width: 103.08px;
+    font-family: Poppins;
+    font-size: 5.77px;
+    font-weight: 300;
+    line-height: 8.65px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #DDDDDD;
+    }
+    .left, .right{
+        border: none;
+        background-color:#F5F5F5;
+    }
+    .shift-left, .shift-right{
+        width: 30px;
+        height: 30px;
+    }
+}
+/*-------end sec2---------------------*/
+.selected{
+    padding: 30px 0px;
+    background-color: var(--mainColor);
+}
+
+.selected .row{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.selectedimage{
+    width: 30%;
+}
+
+.selectedimage img{
+    width: 100%;
+}
+.selcted_course{
+   width: 20rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+.selcourse{
+    width: 100px;
+font-family: Inter;
+font-size: 10.41px;
+font-weight: 400;
+line-height: 8.97px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #F0C932;
+}
+.takecourse{
+    width: 250.85px;
+height: 49.38px;
+top: 606.44px;
+left: 340.08px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 26.47px;
+font-weight: 700;
+line-height: 24.71px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #fff;
+}
+.selectedlorem{
+    width: 20rem;
+height: 33.33px;
+top: 662.41px;
+left: 340.08px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 17.41px;
+font-weight: 400;
+line-height: 21.12px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #DDDDDD;
+}
+.count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.counts
+{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.numberofpeople{
+    width: 29px;
+font-family: Inter;
+font-size: 15.88px;
+font-weight: 700;
+line-height: 31.96px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #F0C932;
+}
+.type1{
+    width: 75px;
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 8.97px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #DDDDDD;
+}
+.numberofuser{
+    font-family: Inter;
+    font-size: 15.88px;
+    font-weight: 700;
+    line-height: 31.96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F0C932;
+}
+.type2{
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 8.97px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #DDDDDD;
+}
+.numberofcourses{
+    width: 29.65px;
+    font-family: Inter;
+    font-size: 15.88px;
+    font-weight: 700;
+    line-height: 31.96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F0C932;
+}
+.type3{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 8.97px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #DDDDDD;
+}
+@media screen and (max-width:700px) {
+
+    .selectedimage{
+    width: 100%;
+}
+}
+/*-------------end sec3-----------*/
+.available{
+    padding: 30px 0;
+}
+.availableimages{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.course1{
+    width: 15rem;
+    padding: 0 10px 10px 5px;
+    display: flex;
+    flex-direction: column;
+      row-gap: 20px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      align-content: flex-start;
+      box-shadow: 0 0px 8px rgba(0, 0, 0, 0.5);
+      transition: all .4s ease-in-out;
+}
+.htmlandcss{
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    height: 170px;
+    position:relative;
+    top: 5px;
+   left: 4px;
+
+}
+.course1:hover { 
+    transform: scale(1.05); /* Slightly increase the size */ 
+    box-shadow: 0 10px 20px rgba(131, 5, 153, 0.408); /* Add a shadow effect */ 
+}
+.bestcoursepara{
+height: 9.86px;
+font-family: Poppins;
+font-size: 10.69px;
+font-weight: 700;
+line-height: 10.04px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #fff;
+
+}
+.bestcourse{
+    width: 72.37px;
+height: 27.81px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 10px;
+border-radius: 2px;
+background-color: #545BE8;
+}
+.bestcourseprice{
+    width: 100%;
+        background: linear-gradient(to bottom, rgba(73, 72, 72, 0), rgb(53, 53, 53));
+position: relative;
+top: 83px;
+text-align: right;
+display: flex;
+
+}
+ .price{
+    text-align: right;
+    width: 100%;
+height: 50.56px;
+position: relative;
+top: 20px;
+left: 120px;
+font-family: Poppins;
+font-size: 18.93px;
+font-weight: bolder;
+line-height: 13.39px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #ffffff;
+}
+.courseheader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.html{
+font-family: Poppins;
+font-size: 18.93px;
+font-weight: 700;
+line-height: 13.39px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#141E32;
+}
+.courseviwe{
+margin-top: 5px;
+font-family: Poppins;
+font-size: 15.21px;
+font-weight: 400;
+line-height: 7.81px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #545BE8;
+}
+.coursecont{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.vid{
+    width: 100px;
+font-family: Poppins;
+font-size: 16.69px;
+font-weight: 300;
+line-height: 10.04px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #969696;
+}
+.teacher{
+font-family: Poppins;
+font-size: 16.69px;
+font-weight: 400;
+line-height: 10.04px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #969696;
+}
+.availableinformation{
+    display:flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+
+}
+.forypu{
+font-family: Inter;
+font-size: 17.41px;
+font-weight: 400;
+line-height: 8.97px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--mainColor);
+}
+.Available_Courses{
+font-family: Poppins;
+font-size: 26.47px;
+font-weight: 700;
+line-height: 24.71px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #141E32;
+}
+.availablelorem{
+    width: 354.41px;
+    font-family: Poppins;
+font-size: 17.41px;
+font-weight: 400;
+line-height: 21.12px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #969696;
+}
+.seeall{
+    width: Fixed (72.11px)px;
+height: Hug (19.71px)px;
+top: 947.91px;
+left: 410.59px;
+padding: 5.35px 20.18px 5.35px 20.18px;
+gap: 4.12px;
+border-radius: 4.12px;
+opacity: 0px;
+background: #545BE8;
+color: #ffffff;
+border: none;
+transition: all .4s ease-in-out;
+}
+.seeall:hover{
+    box-shadow: 0 4px 8px rgba(111, 9, 237, 0.5);
+}
+/* Small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .available .container{
+        width: 100%;
+    }
+    .available .row{
+      gap: 20px;
+    }
+    .availableimages, .availableinformation {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .course1 {
+      width: 80%;
+    }
+    .htmlandcss{
+        width: 100%;
+        height: 190px;
+        left: 10px;
+    }
+    .price{
+        width: 100%;
+        left: 160px;
+    }
+    .bestcourseprice{
+        width: 93%;
+        top: 110px;
+    }
+    .courseheader{
+        width: 83%;
+        gap: 10px;
+        position: relative;
+        left: 20px;
+    }
+    .coursecont{
+        width: 83%;
+        position: relative;
+        left: 20px;
+    }
+    .seeall {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  /* Medium devices (tablets, 600px and up) */
+  @media screen and (max-width: 600px) and (max-width: 768px) {
+    .availableimages {
+      width: 100%;
+    }
+  
+    .course1 {
+      width: 45%;
+    }
+  
+    .availableinformation {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+  }
+  
+  /* Large devices (desktops, 768px and up) */
+  @media screen and (max-width: 376px) {
+    .availableimages {
+      width: 50%;
+    }
+  .available .container{
+    width: calc(100% - 10%);
+  }
+  .available .row{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+  }
+
+    .course1 {
+      width: 100%;
+      height: 250px;
+    }
+  
+    .availableinformation {
+      width: 50%;
+      text-align: left;
+      align-items: flex-start;
+    }
+    .html{
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 25.39px;
+        text-align: left;
+         color:#0055ff;
+        }
+  }
+  .courseviwe{
+    margin-top: 5px;
+    font-family: Poppins;
+    font-size: 15.21px;
+    font-weight: 400;
+    line-height: 18.81px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #545BE8;
+    }
+    .vid{
+        width: 100px;
+    font-family: Poppins;
+    font-size: 16.69px;
+    font-weight: 300;
+    line-height: 15.04px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #969696;
+    }
+    .teacher{
+    font-family: Poppins;
+    font-size: 16.69px;
+    font-weight: 400;
+    line-height: 15.04px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #969696;
+    }
+    .htmlandcss{
+        background-repeat: no-repeat;
+        background-size:contain;
+        width: 100%;
+        height: 170px;
+        position:relative;
+        top: 5px;
+       left: 3px;
+    
+    }
+    .bestcourse{
+        width: 72.37px;
+    height: 27.81px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    border-radius: 2px;
+    background-color: #545BE8;
+    }
+    .bestcourseprice{
+        width: 100%;
+            background: linear-gradient(to bottom, rgba(73, 72, 72, 0), rgb(53, 53, 53));
+    position: relative;
+    top: 33px;
+    text-align: right;
+    display: flex;
+    
+    }
+     .price{
+        text-align: right;
+        width: 100%;
+    height: 50.56px;
+    position: relative;
+    top: 25px;
+    left: 85px;
+    font-family: Poppins;
+    font-size: 15.93px;
+    font-weight: bolder;
+    line-height: 13.39px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    }
+    .forypu{
+        font-family: Inter;
+        font-size: 17.41px;
+        font-weight: 400;
+        line-height: 18.97px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--mainColor);
+        }
+        .Available_Courses{
+        font-family: Poppins;
+        font-size: 26.47px;
+        font-weight: 700;
+        line-height: 24.71px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #141E32;
+        }
+        .availablelorem{
+            width: 200px;
+            font-family: Poppins;
+        font-size: 17.41px;
+        font-weight: 400;
+        line-height: 21.12px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #969696;
+        }
+        .seeall{
+            width: Fixed (72.11px)px;
+        height: Hug (19.71px)px;
+        top: 947.91px;
+        left: 410.59px;
+        padding: 5.35px 20.18px 5.35px 20.18px;
+        gap: 4.12px;
+        border-radius: 4.12px;
+        opacity: 0px;
+        background: #545BE8;
+        color: #ffffff;
+        border: none;
+        transition: all .4s ease-in-out;
+        }
+  /*-------------end sec4 ------------*/
+ 
